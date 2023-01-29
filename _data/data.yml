@@ -47,8 +47,16 @@ experiences:
   display: true
   title: Опыт
   items:
+
+    - role: Team Lead Machine Learning
+      time: 2022.04 - present
+      company: <a href=""https://www.ozon.ru/">OZON</a>
+      tag:
+      details: |
+       Руководства командой из 4-6 человек, разрабатывающей рекомендательные сервисы.
+
     - role: Data Scientist
-      time: 2019.12 - present
+      time: 2019.12 - 2022.03
       company: <a href="https://www.sibur.digital/publicationsSibur">Sibur Digital</a>
       tag:
       details: |
@@ -75,6 +83,13 @@ projects:
     Интересные для упоминания задачи.
 
   items:
+    - name: OZON
+      details: |
+        + Руководство командой 4-6 человек
+        - Проектирование и разработка рекомендательной системы для коротких видео с нуля
+        - Реализация двухэтапной архитектуры
+        - Написание микросервисов на python
+
     - name: Лидогенерация(<a href="https://habr.com/ru/company/sibur_official/blog/571550/">пост на хабре</a>)
       details: |
         + Написание прототипа на python
@@ -110,7 +125,8 @@ skills:
     display: true
     title: Skills
     details: |
-      + Data Science: Python, Machine Learning, Deep Learning, Mathematics, Statistics, Scikit-learn, Prophet, Numpy, Pandas, PyTorch, LGBM, VW, hyperopt
+      + Data Science: Python, Machine Learning, Deep Learning, Mathematics, Statistics, Scikit-learn, Prophet, Numpy, Pandas, PyTorch, Catboost, hyperopt
+      + Recommender Systems: Implicit, LightFM, RecBole, DeepFM, HNSW
       + NLP: Spacy, NLTK, hugging face
       + Data Visualisation: MatPlotLib, Plotly, Seaborn, StreamLit
       + Operation Research: Pyomo, Cbc, gurobi, OR
