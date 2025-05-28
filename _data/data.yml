@@ -48,12 +48,19 @@ experiences:
   title: Опыт
   items:
 
+    - role: CTO RecSyS&Search Platform
+      time: 2024.05 - ...
+      company: <a href=""https://mts-digital.ru/">MTS Digital</a>
+      tag:
+      details: |
+       Руководство платформой, реализующей персонализованные рекомендации и поиск для более, чем 10 компаний экосистемы MTS
+
     - role: Team Lead Machine Learning
-      time: 2022.04 - present
+      time: 2022.04 - 2024.04
       company: <a href=""https://www.ozon.ru/">OZON</a>
       tag:
       details: |
-       Руководства командой из 4-6 человек, разрабатывающей рекомендательные сервисы.
+       Руководства командой из 4-6 человек, разрабатывающей рекомендательные сервисы. Персонализация с использованием Runtime и Offline трансформеров.
 
     - role: Data Scientist
       time: 2019.12 - 2022.03
@@ -69,12 +76,6 @@ experiences:
       details: |
         Участие в пресейл пилотах и проектах отдела углубленной аналитики с уклоном в оптмиизацию и прогнозирование временных рядов. Менторинг стажеров.
 
-    - role: Лаборант
-      time: 2016.02 - 2016.12
-      company: <a href="https://www.hse.ru/en/">НИУ ВШЭ</a> 
-      tag:
-      details: |
-        Разработка методов прогнозирования таблиц "затраты-выпуск" в рамках научно-учебной лаборатории «Исследование проблем информации и экономического роста»
 
 projects:
   display: true
@@ -83,7 +84,23 @@ projects:
     Интересные для упоминания задачи.
 
   items:
-    - name: OZON
+
+    - name: RecSyS&Search Platform
+      details: |
+        + Руководство отделом из ~ 50 человек.
+        + Проектировании платформы, состоящей из AB модуля, движка оффлайн рекомендаций, движка рантайм рекомендаций, движка поиска.
+        + Обеспечение надежности(>99.5% PBI) и низкой задержки работы рекомендательного движка.
+        + 10+ компаний потребителей персонализованных рекомендаций и поиска. Более 1500 RPS.
+        + Увеличение кол-ва проверяемых гипотез на 20% за счет реиспользования наработок
+    
+    
+    - name: OZON RecSys
+      details: |
+        + Руководство командой 4-6 человек.
+        + Разработка Runtime и Offline трансформера для персональных рекомендаций товаров.
+        + Разработка runtime рекомендательного сервиса на GoLang  
+  
+    - name: OZON Моменты
       details: |
         + Руководство командой 4-6 человек
         + Проектирование и разработка рекомендательной системы для коротких видео с нуля
@@ -127,12 +144,13 @@ skills:
     details: |
       + Data Science: Python, Machine Learning, Deep Learning, Mathematics, Statistics, Scikit-learn, Prophet, Numpy, Pandas, PyTorch, Catboost, hyperopt
       + Recommender Systems: Implicit, LightFM, RecBole, DeepFM, HNSW
-      + NLP: Spacy, NLTK, hugging face
-      + Data Visualisation: MatPlotLib, Plotly, Seaborn, StreamLit
+      + BigData Stack: Hadoop, Spark, Hive
+      + NLP: Hugging Face, Transformers
+      + Data Visualisation: SuperSet, Grafana, MatPlotLib, Plotly, Seaborn, StreamLit
       + Operation Research: Pyomo, Cbc, gurobi, OR
       + Development: Docker, Pytest, Linux, Git, gitlab CI-CD, Jira, Confluence 
-      + DB: SQL, Vertica, Data Grip, Dbeaver
-      + Programming languages: Python, SAS, C++(basic), R(basic)
+      + DB: SQL, Vertica, Redis, AeroSpike, Postgre
+      + Programming languages: GoLang, Python, SAS, C++(basic), R(basic)
 
 education:
   display: true
@@ -154,12 +172,11 @@ education:
 
 Additionally:
     display: true
-    title: Дополнительно
+    title: Выступления и доклады
     intro: |
-      + Декабрь, 2020: <a href="https://github.com/SerSmith/hackathon_hyper_ad_tech">Цифровой прорыв</a>, Финалист 
-      + Август, 2020: <a href="https://github.com/SerSmith/vk-hakathon-2021">vk хакатон</a>, Финалист
-      + Июнь, 2020:  <a href="https://github.com/SerSmith/Promo_hack_2021">Хакатон Promo Hack</a>, Победитель в номинации "Лучшая демонстрация продукта"
-      + Февраль, 2020: <a href="https://github.com/SerSmith/ramax">Хакатон Ramaximization</a>, Победитель
+      + <a href="https://www.youtube.com/watch?v=py1EJ6J5QO0&t=360s">Нейросетевые рекомендации в OZON</a>,
+      + <a href="https://broadcast.comdi.com/watch/rirkl8lr">RecSys Platform</a>
+
 
 certificates:
   display: false
